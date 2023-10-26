@@ -9,4 +9,14 @@ Welcome. This site presents the work on the Renew software for the simulation of
 
 # How to run the work on Renew
 
+# The Team
 
+**Sofia Hustiu**
+
+**Eva Robillard**
+
+**Joaquin Ezpeleta**
+
+**Cristian Mahulea**
+
+**Marius Kloetzer**
