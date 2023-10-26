@@ -1,20 +1,8 @@
-remote_theme: pages-themes/minimal@v0.2.0
 
-header:
-  pages:
-    - name: Home
-      slug: /     # <-- index.md
-    - name: Code  # <-- blog.md
-    - name: Team  # <-- whatever.md
 
-footer:
-  show_powered_by: true
-  contact:
-    - name: Email
-      value: eva.robillard@ens-paris-saclay.fr
-      link: mailto:eva.robillard@ens-paris-saclay.fr
-  follow:
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/eva-robillard
+title: Minimal theme
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
