@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+<net id="net_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" type="RefNet">
+	<name>
+		<text>K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC</text>
+	</name>
+	<place id="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p2</text>
+		</name>
+	</place>
+	<place id="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p4</text>
+		</name>
+	</place>
+	<place id="p6_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p6</text>
+		</name>
+	</place>
+	<place id="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p8</text>
+		</name>
+	</place>
+	<place id="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<initialMarking>
+			<text>[]</text>
+		</initialMarking>
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p10</text>
+		</name>
+	</place>
+	<place id="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p12</text>
+		</name>
+	</place>
+	<transition id="t15_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("j")</text>
+		</uplink>
+	</transition>
+	<arc id="a99_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t15_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a100_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t15_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t17_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!j")</text>
+		</uplink>
+	</transition>
+	<arc id="a101_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t17_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a102_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t17_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t19_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,j")</text>
+		</uplink>
+	</transition>
+	<arc id="a103_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p6_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t19_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a104_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t19_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t21_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,!j")</text>
+		</uplink>
+	</transition>
+	<arc id="a105_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p6_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t21_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a106_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t21_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t23_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i")</text>
+		</uplink>
+	</transition>
+	<arc id="a107_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p6_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t23_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a108_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t23_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p6_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t25_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("j,a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a109_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t25_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a110_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t25_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t27_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("j,c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a111_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t27_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a112_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t27_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t29_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!j,a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a113_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t29_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a114_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t29_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t31_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!j,c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a115_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t31_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a116_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t31_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t33_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!j,!a,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a117_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t33_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a118_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t33_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t35_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!j,!a,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a119_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t35_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a120_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t35_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t37_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!j,!b,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a121_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t37_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a122_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t37_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t39_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!j,!b,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a123_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t39_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a124_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t39_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t41_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("j,!a,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a125_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t41_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a126_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t41_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t43_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("j,!a,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a127_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t43_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a128_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t43_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t45_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("j,!b,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a129_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t45_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a130_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t45_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t47_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("j,!b,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a131_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t47_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a132_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t47_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t49_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,j,a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a133_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t49_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a134_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t49_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t51_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,j,c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a135_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t51_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a136_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t51_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t53_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,!j,a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a137_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t53_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a138_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t53_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t55_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,!j,c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a139_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t55_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a140_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t55_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p4_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t57_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i,a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a141_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t57_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a142_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t57_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p6_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t59_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i,c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a143_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t59_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a144_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t59_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p6_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t61_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,!j,!a,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a145_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t61_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a146_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t61_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t63_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,!j,!a,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a147_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t63_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a148_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t63_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t65_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,!j,!b,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a149_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t65_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a150_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t65_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t67_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,!j,!b,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a151_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t67_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a152_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t67_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p8_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t69_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i,!a,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a153_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t69_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a154_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t69_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t71_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i,!a,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a155_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t71_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a156_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t71_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t73_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i,!b,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a157_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t73_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a158_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t73_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t75_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i,!b,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a159_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t75_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a160_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t75_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t77_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,j,!a,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a161_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t77_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a162_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t77_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t79_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,j,!a,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a163_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t79_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a164_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t79_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t81_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,j,!b,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a165_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t81_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a166_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t81_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t83_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i,j,!b,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a167_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p10_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t83_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a168_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t83_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t85_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a169_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t85_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a170_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t85_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t87_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a171_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t87_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a172_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t87_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t89_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!a,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a173_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t89_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a174_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t89_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t91_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!a,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a175_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t91_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a176_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t91_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t93_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!b,!c")</text>
+		</uplink>
+	</transition>
+	<arc id="a177_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t93_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a178_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t93_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t95_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!b,!f")</text>
+		</uplink>
+	</transition>
+	<arc id="a179_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t95_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<arc id="a180_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="t95_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="p12_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+	<transition id="t97_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:end()</text>
+		</uplink>
+	</transition>
+	<arc id="a181_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" source="p2_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC" target ="t97_K:\\Work\\Sofia\\NwN\\Clean_multi_floor_ex\\MissionC">
+	</arc>
+</net>
+</pnml>

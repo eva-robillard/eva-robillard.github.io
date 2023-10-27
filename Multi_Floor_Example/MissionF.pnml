@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+<net id="net_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" type="RefNet">
+	<name>
+		<text>C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF</text>
+	</name>
+	<place id="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<initialMarking>
+			<text>[]</text>
+		</initialMarking>
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p2</text>
+		</name>
+	</place>
+	<place id="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p4</text>
+		</name>
+	</place>
+	<place id="p6_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p6</text>
+		</name>
+	</place>
+	<place id="p8_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p8</text>
+		</name>
+	</place>
+	<place id="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p10</text>
+		</name>
+	</place>
+	<place id="p12_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p12</text>
+		</name>
+	</place>
+	<place id="p14_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p14</text>
+		</name>
+	</place>
+	<place id="p16_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p16</text>
+		</name>
+	</place>
+	<place id="p18_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<name>
+			<graphics>
+				<offset x="0" y="15"/>
+			</graphics>
+			<text>p18</text>
+		</name>
+	</place>
+	<transition id="t21_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("g")</text>
+		</uplink>
+	</transition>
+	<arc id="a77_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t21_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a78_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t21_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t23_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("k")</text>
+		</uplink>
+	</transition>
+	<arc id="a79_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t23_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a80_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t23_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t25_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("1")</text>
+		</uplink>
+	</transition>
+	<arc id="a81_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t25_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a82_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t25_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p6_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t27_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!a,!c,!d")</text>
+		</uplink>
+	</transition>
+	<arc id="a83_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t27_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a84_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t27_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p8_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t29_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("a")</text>
+		</uplink>
+	</transition>
+	<arc id="a85_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t29_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a86_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t29_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t31_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("c")</text>
+		</uplink>
+	</transition>
+	<arc id="a87_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t31_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a88_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t31_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t33_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("d")</text>
+		</uplink>
+	</transition>
+	<arc id="a89_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p2_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t33_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a90_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t33_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t35_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("g")</text>
+		</uplink>
+	</transition>
+	<arc id="a91_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t35_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a92_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t35_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t37_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("k")</text>
+		</uplink>
+	</transition>
+	<arc id="a93_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t37_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a94_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t37_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t39_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("g")</text>
+		</uplink>
+	</transition>
+	<arc id="a95_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p6_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t39_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a96_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t39_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t41_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("k")</text>
+		</uplink>
+	</transition>
+	<arc id="a97_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p6_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t41_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a98_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t41_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t43_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("1")</text>
+		</uplink>
+	</transition>
+	<arc id="a99_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p6_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t43_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a100_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t43_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p6_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t45_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!a,!c,!d")</text>
+		</uplink>
+	</transition>
+	<arc id="a101_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p8_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t45_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a102_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t45_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p8_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t47_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("a")</text>
+		</uplink>
+	</transition>
+	<arc id="a103_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p8_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t47_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a104_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t47_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t49_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("c")</text>
+		</uplink>
+	</transition>
+	<arc id="a105_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p8_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t49_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a106_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t49_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t51_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("d")</text>
+		</uplink>
+	</transition>
+	<arc id="a107_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p8_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t51_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a108_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t51_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t53_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("!i")</text>
+		</uplink>
+	</transition>
+	<arc id="a109_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t53_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a110_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t53_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t55_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("a,i,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a111_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t55_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a112_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t55_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p12_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t57_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("c,i,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a113_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t57_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a114_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t57_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p14_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t59_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("d,i,e")</text>
+		</uplink>
+	</transition>
+	<arc id="a115_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t59_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a116_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t59_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p16_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t61_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("i")</text>
+		</uplink>
+	</transition>
+	<arc id="a117_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p10_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t61_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a118_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t61_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p18_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t63_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a119_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p12_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t63_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a120_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t63_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p12_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t65_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a121_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p14_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t65_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a122_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t65_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p14_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t67_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("d,e")</text>
+		</uplink>
+	</transition>
+	<arc id="a123_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p16_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t67_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a124_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t67_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p16_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t69_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("a,b")</text>
+		</uplink>
+	</transition>
+	<arc id="a125_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p18_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t69_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a126_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t69_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p12_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t71_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("c,f")</text>
+		</uplink>
+	</transition>
+	<arc id="a127_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p18_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t71_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a128_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t71_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p14_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t73_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("d,e")</text>
+		</uplink>
+	</transition>
+	<arc id="a129_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p18_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t73_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a130_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t73_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p16_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t75_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:b("1")</text>
+		</uplink>
+	</transition>
+	<arc id="a131_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p18_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t75_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<arc id="a132_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="t75_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="p18_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t77_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:end()</text>
+		</uplink>
+	</transition>
+	<arc id="a133_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p4_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t77_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t79_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:end()</text>
+		</uplink>
+	</transition>
+	<arc id="a134_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p12_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t79_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t81_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:end()</text>
+		</uplink>
+	</transition>
+	<arc id="a135_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p14_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t81_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+	<transition id="t83_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+		<uplink>
+			<graphics>
+				<offset x="0" y="-18"/>
+			</graphics>
+			<text>:end()</text>
+		</uplink>
+	</transition>
+	<arc id="a136_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" source="p16_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF" target ="t83_C:\Users\sofia\Work_H\Facultate\Doctorat\Articles\NwN_2022\Clean_multi_floor_ex\MissionF">
+	</arc>
+</net>
+</pnml>

@@ -1,0 +1,32 @@
+Some comments about the models:
+
+1) robot_floor_i is the robot object model of the robots that move in floor i (robots r1 to r9 in the text)
+2) robot_floor_1_2_3 is the model for the robot able to move among floors (r0)
+3) We assume that the way of moving among floors is in the "neutral regions" (observations w1, w2 and w3)
+4) Each robot requires only one capacity unit
+5) Capacity description: "1'p11,1'p12,1'p13,4'p14,1'p15,1'p21,1'p22,1'p23,5'p24,1'p25,1'p26,1'p31,1'p32,1'p33,3'p34"
+Every ROI is of capacity 1, while "neutral areas" are 4, 5 and 3 respectively (enough for holding the robots that can be in the corresponding floors)
+6) Initial system state: "4'p14,4'p24,2'p34" (robots r0-r3 in the neutral area of the first floor, r4-r7 in the second one and r8-r9 in the third one)
+7) h mapping: "p11|d,p12|c,p13|k,p14|w1,p15|a,p21|e,p22|f,p23|g,p24|w2,p25|b,p26|j,p31|h,p32|f,p33|i,p34|w3" (associates ROI and observations)
+8) The buchi net has to be computed for the mission specification in the text (btw, the formula in the text should be corrected)
+9) With respect to the labels in the robot net transitions, the meaning is as follows (which is used for the gef).
+The label ':r("d","1'p11","1'p14","3.5")' must be interpreted as follows:
+"d": observation TRUE after firing the transition (the robot has moved to region p11, whose observation is "d")
+"1'p11": free capacity required to move (the robot is entering place p11)
+"1'p14": capacity freed after firing (the robot is leaving p14)
+"3.5": this is just to show that we can put additional information in the firing of robot transitions, which can be used by the gef or for a later analysis of the log file. For instance, let's consider in this case that the value is the mean time required to execute the corresponding action of moving the robot from region p14 to p11.
+
+
+TODO:
+a) the mission net
+b) to extend the system net to consider up to 11 robots (8 more transitions must be added).
+
+CHALLENGE: it is hard to write the labels for the transitions to add. A quite simple script could be used to generate such text inscriptions in a text file and then copy/paste by hand the pieces of text in the transitions. The pattern is very simple.
+
+c) And putting everything at work!!!!
+
+
+
+Mission: F(h & i & j & k & l & g) & ((!a & !b) U (a & b)) & ((!c & !f) U (c & f)) & ((!d & !e) U (d & e))
+
+----------------------------------------------------------
