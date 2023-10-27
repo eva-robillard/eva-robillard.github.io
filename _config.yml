@@ -1,8 +1,8 @@
-
-
-title: Nets-Within-Nets 2023
-logo: image_2023-10-26_145028978.png
+title:  Nets-Within-Nets 2023
 description: Sofia Hustiu, Eva Robillard, Joaquin Ezpeleta, Cristian Mahulea, Marius Kloetzer
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal
+theme: just-the-docs
+
+url: https://just-the-docs.github.io
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
