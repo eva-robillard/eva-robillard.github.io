@@ -1,3 +1,7 @@
+---
+title: Home
+layout: home
+---
 
 Welcome! This site holds all the information about the simulations introduced in the article """...........""" blablabla
 
