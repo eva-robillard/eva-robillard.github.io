@@ -11,7 +11,7 @@ Welcome! This site holds all the information about the simulations introduced in
 
 ### First step : Download the Renew Software
 
-Renew is a Java-based editor and simulator for Petri Nets. In order to run our work, please first [download the Renew software](hhtp://www.renew.de).
+Renew is a Java-based editor and simulator for Petri Nets. In order to run our work, please first [download the Renew software](http://www.renew.de).
 
 ### Second step : Download the example to run on our github
 
