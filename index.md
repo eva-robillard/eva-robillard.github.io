@@ -5,6 +5,10 @@ layout: home
 
 Welcome! This site holds all the information about the simulations introduced in the article “"”………..””” blablabla
 
+<img src="LogoUZ.png" alt="logoUZ" width="200"/> 
+<img src="logo-TUIASI.png" alt="logoUZ" width="200"/>
+<img src="ENSPS_UPSAY_logo_couleur_2.png" alt="logoUZ" width="200"/>
+
 ![](../pictures/LogoUZ.png) ![](../pictures/logo-TUIASI.png) ![](../pictures/ENSPS_UPSAY_logo_couleur_2.png)
 
 # Presentation of the Project 
