@@ -5,23 +5,14 @@ layout: home
 
 Welcome! This site holds all the information about the simulations introduced in the article “"”………..””” blablabla
 
-<img src="../pictures/LogoUZ.png" alt="logoUZ" width="200"/> 
+<img src="../pictures/LogoUZ.png" alt="logoUZ" width="500"/> 
 <img src="../pictures/logo-TUIASI.png" alt="logoUZ" width="200"/>
-<img src="../pictures/ENSPS_UPSAY_logo_couleur_2.png" alt="logoUZ" width="200"/>
+<img src="../pictures/ENSPS_UPSAY_logo_couleur_2.png" alt="logoUZ" width="500"/>
 
 ![](../pictures/LogoUZ.png) ![](../pictures/logo-TUIASI.png) ![](../pictures/ENSPS_UPSAY_logo_couleur_2.png)
 
-<div class="row">
-  <div class="column">
-    <img src="../pictures/LogoUZ.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="../pictures/logo-TUIASI.png" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="../pictures/ENSPS_UPSAY_logo_couleur_2.png" alt="Mountains" style="width:100%">
-  </div>
-</div>
+<img src="../pictures/LogoUZ.png" style="float:left; margin-right:10px;">
+<img src="../pictures/logo-TUIASI.png" style="float:left;">
 
 # Presentation of the Project 
 
