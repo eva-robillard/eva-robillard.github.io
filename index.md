@@ -6,9 +6,8 @@ layout: home
 Welcome! This site holds all the information about the simulations introduced in the article “"”………..””” blablabla
 
 <img src="../pictures/LogoUZ.png" alt="logoUZ" width="300"/> 
-<img src="../pictures/logo-TUIASI.png" alt="logoUZ" width="200"/>
 <img src="../pictures/ENSPS_UPSAY_logo_couleur_2.png" alt="logoUZ" width="300"/>
-
+<img src="../pictures/logo-TUIASI.png" alt="logoUZ" width="200"/>
 
 
 # Presentation of the Project 
