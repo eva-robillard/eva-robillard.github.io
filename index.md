@@ -9,10 +9,7 @@ Welcome! This site holds all the information about the simulations introduced in
 <img src="../pictures/logo-TUIASI.png" alt="logoUZ" width="200"/>
 <img src="../pictures/ENSPS_UPSAY_logo_couleur_2.png" alt="logoUZ" width="400"/>
 
-![](../pictures/LogoUZ.png) ![](../pictures/logo-TUIASI.png) ![](../pictures/ENSPS_UPSAY_logo_couleur_2.png)
 
-<img src="../pictures/LogoUZ.png" style="float:left; margin-right:10px;">
-<img src="../pictures/logo-TUIASI.png" style="float:left;">
 
 # Presentation of the Project 
 
