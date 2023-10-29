@@ -5,7 +5,7 @@ layout: home
 
 Welcome! This site holds all the information about the simulations introduced in the article “"”………..””” blablabla
 
-![](../pictures/LogoUZ.png) ![](../pictures/logo-TUIASI.png) ![](../pictures/ENSPS_UPSAY_logo_couleur_2.png)
+![](../pictures/LogoUZ.png){ width=30% } ![](../pictures/logo-TUIASI.png){ width=30% } ![](../pictures/ENSPS_UPSAY_logo_couleur_2.png){ width=30% }
 
 # Presentation of the Project 
 
