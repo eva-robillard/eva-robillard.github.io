@@ -21,12 +21,12 @@ Please refer to the [Renew Installation window](../renew.html).
 
 #### Step 3 : Open the example on Renew
 
-MODEL LAUNCHING PROCEDURE :
+The procedure for the launching on the example in Renew is:
 
-1) Open the Powershell in the directory with the example files, containing the Java script Eval.java.
-2) Execute "javac Eval.java" in the Powershell
-3) Open Renew from the Powershell ( type in the path of the directory containing the Renew software adding \renew ) 
-4) In Renew, open "system_net.rnw"
+1. Open the Powershell in the directory with the example files, containing the Java script Eval.java.
+2. Execute "javac Eval.java" in the Powershell
+3. Open Renew from the Powershell ( type in the path of the directory containing the Renew software adding \renew ) 
+4. In Renew, open "system_net.rnw"
 
 #### Step 4 : Simulate
 
