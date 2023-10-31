@@ -13,7 +13,7 @@ layout: default
 
 #### Step 1 : Download the simulation software Renew
 
-Please refer to the [Renew Installation window](../renew.md).
+Please refer to the [Renew Installation window](../renew.html).
 
 #### Step 2 : Download the simple example files
 
