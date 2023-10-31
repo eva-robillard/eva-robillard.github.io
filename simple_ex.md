@@ -3,13 +3,12 @@ title: Simple Example
 layout: default
 ---
 
-# Simulation of a simple example
 
-## Presentation of the example
-
+# Presentation of the simple example
 
 
-## Process
+
+# Process
 
 ### Step 1 : Download the simulation software Renew
 
@@ -33,7 +32,7 @@ The procedure for the launching on the example in Renew is:
 Simulate Step by Step (Ctrl+I) or completely (Ctrl+R)
 
 
-## Simulation presentation
+# Simulation presentation
 
 #### COLOR CODE :
 * Blue: System Net
