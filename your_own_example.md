@@ -10,7 +10,7 @@ nav_order: 5
 
 This can be done by abiding by the following steps:
 
-1. Translate your LTL formula into a Büchi automaton using the SPOT software. 
+1. Translate your LTL formula into a Büchi automaton using the [SPOT software](https://spot.lre.epita.fr). 
 2. Save the automaton, the file will have an .xml type extension.
 3. Change the extension to .hoa (this can be done by opening the .xml file in the notepad and saving it under the .hoa extension)
 4. Go into the folder that holds the folder hoa2pnml. Open the Powershell there.
