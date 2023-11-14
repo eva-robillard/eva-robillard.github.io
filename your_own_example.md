@@ -15,9 +15,9 @@ This can be done by abiding by the following steps:
 3. Change the extension to .hoa (this can be done by opening the .xml file in the notepad and saving it under the .hoa extension)
 4. Go into the folder that holds the folder hoa2pnml. Open the Powershell there.
 5. Write this command line :
-
+'''
 java -jar hoa2pnml.jar NameOfTheHoaFile (without adding the extension .hoa)
-
+'''
 6. The .hoa file is now a .pnml model visible by Renew.
 
 ## Robot nets
