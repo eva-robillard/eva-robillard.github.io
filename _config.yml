@@ -1,8 +1,8 @@
 title: Nets-within-Nets for Motion Planning with Renew
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: Simulation guide of the research work conducted in the paper "Multi-robot Motion Planning based on Nets-within-Nets Modeling and Simulation"
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://eva_robillard.github.io/nwnformotionplanning
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+aux_links: # remove if you don't want this link to appear on your pages
+  Template Repository: https://github.com/eva_robillard/nwnformotionplanning
