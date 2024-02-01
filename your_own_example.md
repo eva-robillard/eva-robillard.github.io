@@ -13,8 +13,9 @@ This can be done by abiding by the following steps:
 1. Translate your LTL formula into a Büchi automaton using the [SPOT software](https://spot.lre.epita.fr). 
 2. Save the automaton, the file will have an .xml type extension.
 3. Change the extension to .hoa (this can be done by opening the .xml file in the notepad and saving it under the .hoa extension)
-4. Go into the folder that holds the folder hoa2pnml. Open the Powershell there.
-5. Write this command line :
+4. Go into the folder that holds the folder hoa2pnml. This folder can also be found in [this repository](dvhs).
+5. Open the Powershell there.
+6. Write this command line :
 
 ```
 java -jar hoa2pnml.jar NameOfTheHoaFile (without adding the extension .hoa)
