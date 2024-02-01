@@ -44,4 +44,6 @@ MissionE: (F G (a & b) | F G ( c & f) | F G (d & e)) & F ((a | c | d)& X F i) | 
 MissionF (LTL formula: (F G (a & b) | F G ( c & f) | F G (d & e)) & F ((a | c | d)& X F i) | (F G(k | g))
 ```
  * **Robot nets**:  qpn_robot and qpn_robot_2 are used for the SimpleMission. The rest of the robot nets (robot_assistant, robot_full, robot_monitoring, robot_supply_and_clean, robot_patient) are used for the ComplexMission.
- * The **shadow net files** (.sns) include all the information to run an experiment without having Renew opened, by using the command line: java -jar "Installation path of Renew\loader.jar" startsimulation FileName.sns execute_experiment . Note! For teams of 2-5 robots, one experiment contains 100 simulations, for teams of 6-8 robots, an experiment contains 10 simulations, except the file names containing 1sim (1 simulation). 
+ * The **shadow net files** (.sns) include all the information to run an experiment without having Renew opened, by using the command line: java -jar "Installation path of Renew\loader.jar" startsimulation FileName.sns execute_experiment .
+[!NOTE]
+For teams of 2-5 robots, one experiment contains 100 simulations, for teams of 6-8 robots, an experiment contains 10 simulations, except the file names containing 1sim (1 simulation). 
