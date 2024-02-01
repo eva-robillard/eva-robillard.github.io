@@ -6,7 +6,7 @@ nav_order: 1
 
 # Nets-within-Nets for Motion Planning with Renew
 
-This site holds all the information required for the simulation work introduced in the article ....
+This site holds all the information required for the simulation work introduced in the article **Multi-robot Motion Planning based on Nets-within-Nets Modeling and Simulation**.
 
 
 # Presentation of the Project 
