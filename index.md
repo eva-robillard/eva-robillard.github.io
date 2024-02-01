@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# Welcome! 
+# Nets-within-Nets for Motion Planning with Renew
 
 This site holds all the information required for the simulation work introduced in the article ....
 
