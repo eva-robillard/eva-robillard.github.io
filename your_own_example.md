@@ -27,8 +27,3 @@ The .hoa file is now a .pnml model visible by Renew.
 ## ... 
 
 
-## Run the simulations using a shadow net
-So, the command line to execute a .sns file with all the information in one file is the following: (you have to be in the path where you have the Renew project):
-```
-path of Renew project java -jar "path of the renew\loader.jar" startsimulation nameoffile.sns execute experiment
-```
