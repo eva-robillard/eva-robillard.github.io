@@ -17,7 +17,7 @@ Please refer to the [Renew Installation window](../renew.html).
 
 ### Step 2 : Download the simple example files
 
-[Please click here to access the files on Github](https://github.com/eva-robillard/NetsWithinNets2023.git).
+[Please click here to access the files on Github](https://github.com/eva-robillard/NwN_simple).
 
 ### Step 3 : Open the example on Renew
 
