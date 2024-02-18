@@ -6,7 +6,7 @@ nav_order: 5
 
 # What are the steps for testing out your own example with our model ? 
 
-## Create a Büchi Petri Net from your LTL global mission.
+## Create a Specification Net from your LTL global mission.
 
 This can be done by abiding by the following steps:
 
