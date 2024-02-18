@@ -12,7 +12,7 @@ This can be done by abiding by the following steps:
 
 1. Translate your LTL formula into a Büchi automaton using the [SPOT software](https://spot.lre.epita.fr). 
 2. Save the automaton with an .never type extension.
-3. Change the extension to .hoa by using the "autfilt" tool of the SPOT software:
+3. Change the extension to .hoa by using the ["autfilt" tool of the SPOT software](https://spot.lre.epita.fr/autfilt.html):
 ```
 autfilt NameOfTheFile.never > NameOfTheFile.hoa
 ```
