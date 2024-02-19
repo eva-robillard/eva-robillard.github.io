@@ -27,6 +27,7 @@ The .hoa file is now a .pnml model visible by Renew.
 
 ## Robot nets
 
-## ... 
+The model of the robot nets is introduced in the paper through different examples. 
+
 
 
