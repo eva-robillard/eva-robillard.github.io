@@ -38,17 +38,31 @@ The procedure for the launching on the example in Renew is:
 
 Simulate Step by Step (Ctrl+I) or completely (Ctrl+R)
 
+# Presentation of the files
 
-# Information on the files
+## The System Net : system_net_2r
 
-**Color code** :
+<img src="../pictures/sn_simple.png" alt="SN" width="500"/>
+
+This is the main pilot file that links all parts of the model together. In order to understand the different elements of this file, there is a **Color code** :
 * Blue: System Net
 * Green: Elements used to launch a simulation
 * Red: Elements used to end a simulation
 * Magenta: Processing of the information, display of the best solution
 
+## The Specification Net (SpecOPN) : simplemission
+
+<img src="../pictures/simplemission.png" alt="mission" width="200"/>
+
+## The Robot Petri Nets : qpn and qpn_2
+
+In this simulation, we use two types of RobotPN : 
+
+<img src="../pictures/qpn.png" alt="qpn" width="200"/> <img src="../pictures/qpn_2.png" alt="qpn2" width="200"/>
 
 
+
+# Information on the files
 
 **Simulation information** : 
 * At all times, you can observe the state of the robots nets by right-clicking the number contained by the Master Net place and double-clicking on one robot. 
