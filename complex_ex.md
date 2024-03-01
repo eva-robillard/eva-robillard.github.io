@@ -32,6 +32,33 @@ The procedure for the launching on the example in Renew is:
 
 Simulate Step by Step (Ctrl+I) or completely (Ctrl+R)
 
+# Presentation of the files
+
+## The System Net : for example system_net_4r for 4 heterogeneous robots
+
+<img src="../pictures/sn_4.png" alt="SN" width="700"/>
+
+This is the main pilot file that links all parts of the model together. In order to understand the different elements of this file, there is a **Color code** :
+* Blue: System Net
+* Green: Elements used to launch a simulation
+* Red: Elements used to end a simulation
+* Magenta: Processing of the information, display of the best solution
+
+## The Specification Net (SpecOPN) : complexmission
+
+The representation of the complex mission is heavy, it is presented in compact form and is thus not the most lisible. 
+
+<img src="../pictures/complexmission.png" alt="mission" width="400"/>
+
+## The Robot Petri Nets 
+
+In this simulation, we use multiple types of RobotPN. Respectively, we present robot_assistant, robot_full, robot_monitoring, robot_patient and robot_supply_and_clean as presented in the paper. The representation of the nets was made with random layouts : the representation that opens on your computer may differ. 
+
+<img src="../pictures/robot_assistant.png" alt="qpn" width="300"/> <img src="../pictures/robot_full.png" alt="qpn2" width="300"/>
+<img src="../pictures/robot_monitoring.png" alt="qpn2" width="300"/> <img src="../pictures/robot_patient.png" alt="qpn2" width="300"/>
+<img src="../pictures/robot_supply_clean.png" alt="qpn2" width="300"/>
+
+
 
 # Information on the file
 
