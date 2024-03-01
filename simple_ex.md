@@ -7,13 +7,13 @@ nav_order: 3
 
 # Presentation of the simple example
 
-<img src="C:\Users\evaba\OneDrive\Images\Captures d’écran\sn_simple.png" alt="SN" width="200"/>
+<img src="../pictures/sn_simple.png" alt="SN" width="200"/>
 
-<img src="C:\Users\evaba\OneDrive\Images\Captures d’écran\qpn_2.png" alt="SN" width="200"/>
+<img src="../pictures/qpn_2.png" alt="SN" width="200"/>
 
-<img src="C:\Users\evaba\OneDrive\Images\Captures d’écran\qpn.png" alt="SN" width="200"/>
+<img src="../pictures/qpn.png" alt="SN" width="200"/>
 
-<img src="C:\Users\evaba\OneDrive\Images\Captures d’écran\simplemission.png" alt="SN" width="200"/>
+<img src="../pictures/simplemission.png" alt="SN" width="200"/>
 
 # Process
 
