@@ -54,15 +54,15 @@ The representation of the complex mission is heavy, it is presented in compact f
 
 In this simulation, we use multiple types of RobotPN. Respectively, we present robot_assistant, robot_full, robot_monitoring, robot_patient and robot_supply_and_clean as presented in the paper. The representation of the nets was made with random layouts : the representation that opens on your computer may differ. 
 
-<img src="../pictures/robot_assistant.png" alt="qpn" width="200"/> 
+<img src="../pictures/robot_assistant.png" alt="qpn" width="500"/> 
 
-<img src="../pictures/robot_full.png" alt="qpn2" width="300"/>
+<img src="../pictures/robot_full.png" alt="qpn2" width="400"/>
 
-<img src="../pictures/robot_monitoring.png" alt="qpn2" width="250"/> 
+<img src="../pictures/robot_monitoring.png" alt="qpn2" width="300"/> 
 
-<img src="../pictures/robot_patient.png" alt="qpn2" width="300"/>
+<img src="../pictures/robot_patient.png" alt="qpn2" width="400"/>
 
-<img src="../pictures/robot_supply_clean.png" alt="qpn2" width="300"/>
+<img src="../pictures/robot_supply_clean.png" alt="qpn2" width="400"/>
 
 
 
