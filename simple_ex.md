@@ -7,14 +7,6 @@ nav_order: 3
 
 # Presentation of the simple example
 
-<img src="../pictures/sn_simple.png" alt="SN" width="200"/>
-
-<img src="../pictures/qpn_2.png" alt="qpn2" width="200"/>
-
-<img src="../pictures/qpn.png" alt="qpn" width="200"/>
-
-<img src="../pictures/simplemission.png" alt="mission" width="200"/>
-
 # Process
 
 ### Step 1 : Download the simulation software Renew
@@ -42,7 +34,7 @@ Simulate Step by Step (Ctrl+I) or completely (Ctrl+R)
 
 ## The System Net : system_net_2r
 
-<img src="../pictures/sn_simple.png" alt="SN" width="500"/>
+<img src="../pictures/sn_simple.png" alt="SN" width="700"/>
 
 This is the main pilot file that links all parts of the model together. In order to understand the different elements of this file, there is a **Color code** :
 * Blue: System Net
@@ -52,13 +44,13 @@ This is the main pilot file that links all parts of the model together. In order
 
 ## The Specification Net (SpecOPN) : simplemission
 
-<img src="../pictures/simplemission.png" alt="mission" width="200"/>
+<img src="../pictures/simplemission.png" alt="mission" width="400"/>
 
 ## The Robot Petri Nets : qpn and qpn_2
 
 In this simulation, we use two types of RobotPN : 
 
-<img src="../pictures/qpn.png" alt="qpn" width="200"/> <img src="../pictures/qpn_2.png" alt="qpn2" width="200"/>
+<img src="../pictures/qpn.png" alt="qpn" width="300"/> <img src="../pictures/qpn_2.png" alt="qpn2" width="300"/>
 
 
 
