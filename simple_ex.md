@@ -9,11 +9,11 @@ nav_order: 3
 
 <img src="../pictures/sn_simple.png" alt="SN" width="200"/>
 
-<img src="../pictures/qpn_2.png" alt="SN" width="200"/>
+<img src="../pictures/qpn_2.png" alt="qpn2" width="200"/>
 
-<img src="../pictures/qpn.png" alt="SN" width="200"/>
+<img src="../pictures/qpn.png" alt="qpn" width="200"/>
 
-<img src="../pictures/simplemission.png" alt="SN" width="200"/>
+<img src="../pictures/simplemission.png" alt="mission" width="200"/>
 
 # Process
 
