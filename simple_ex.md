@@ -24,7 +24,7 @@ The procedure for the launching on the example in Renew is:
 1. Open the Powershell in the directory with the example files, containing the Java script Eval.java.
 2. Execute "javac Eval.java" in the Powershell
 3. Open Renew from the Powershell ( type in the path of the directory containing the Renew software adding \renew ) 
-4. In Renew, open "system_net_2r.rnw"
+4. In Renew, open "system_net_2r_simple.rnw"
 
 ### Step 4 : Simulate
 
@@ -32,7 +32,7 @@ Simulate Step by Step (Ctrl+I) or completely (Ctrl+R)
 
 # Presentation of the files
 
-## The System Net : system_net_2r
+## The System Net : system_net_2r_simple
 
 <img src="../pictures/sn_simple.png" alt="SN" width="700"/>
 
