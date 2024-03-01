@@ -7,7 +7,7 @@ nav_order: 3
 
 # Presentation of the simple example
 
-
+<img src=".../Images/Captures d’écran/sn_simple.png" alt="logoUZ" width="200"/>
 
 # Process
 
