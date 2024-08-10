@@ -23,6 +23,7 @@ represents additional information about the robot. In our example, the last data
 number expressing the robot’s time to move from *p4* towards *p5*.
 
 <img src="../pictures/qpn.png" alt="qpn" width="300"/> <img src="../pictures/qpn_2.png" alt="qpn2" width="300"/>
+
 Figure 1: RobotOPN models: *r1* and *r2* (denoted as *qpn* in Renew) (left) can move freely in the
 workspace. Robot *r3* (denoted as *qpn2* in Renew) (right) is not allowed to enter the overlapped
 region between *y2* and *y3*
