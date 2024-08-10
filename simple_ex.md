@@ -8,24 +8,24 @@ nav_order: 3
 # Presentation of the simple example
 
 For an easier visualization in the Renew simulator, we have defined notations without subscripts,
-e.g., the formal notation of atomic propositions B for set Y = {y1, y2, y3, y4} (Fig. 1) is replaced
-here by set {a, b, c,w}, in exactly this order, with w assigned to the free space y4. Moreover,
-the symbols ¬ or ∧ are replaced in Renew with the syntax “!“, respectively “,“. The True value
+e.g., the formal notation of atomic propositions *B* for set *Y = {y1, y2, y3, y4}* (Fig. 1) is replaced
+here by set *{a, b, c,w}*, in exactly this order, with *w* assigned to the free space *y4*. Moreover,
+the symbols *¬* or *∧* are replaced in Renew with the syntax “*!*“, respectively “,“. The *True* value
 returned by the associated Büchi automaton of the co-safe LTL formula, is expressed in the tool
 with “1“.
 
-Let us consider for example the transition t3 from the first RobotOPN model. The transition
-label is modeled in Renew (c, 1′p5, 1′p4, . . .) and corresponds to the information required for the
-synchronization, used by the GEF: the robot occupies one unit in the region labeled with c
-(modeled by p5) while freeing its position from the free space w (modeled by p4). Thus, the
-atomic proposition for c is evaluated as True. The last parameter from the transition label
+Let us consider for example the transition *t3* from the first RobotOPN model. The transition
+label is modeled in Renew (*c, 1′p5, 1′p4, . . .*) and corresponds to the information required for the
+synchronization, used by the GEF: the robot occupies one unit in the region labeled with *c*
+(modeled by *p5*) while freeing its position from the free space *w* (modeled by *p4*). Thus, the
+atomic proposition for *c* is evaluated as *True*. The last parameter from the transition label
 represents additional information about the robot. In our example, the last data contains a
-number expressing the robot’s time to move from p4 towards p5.
+number expressing the robot’s time to move from *p4* towards *p5*.
 
 <img src="../pictures/qpn.png" alt="qpn" width="300"/> <img src="../pictures/qpn_2.png" alt="qpn2" width="300"/>
-Figure 1: RobotOPN models: r1 and r2 (denoted as qpn in Renew) (left) can move freely in the
-workspace. Robot r3 (denoted as qpn2 in Renew) (right) is not allowed to enter the overlapped
-region between y2 and y3
+Figure 1: RobotOPN models: *r1* and *r2* (denoted as *qpn* in Renew) (left) can move freely in the
+workspace. Robot *r3* (denoted as *qpn2* in Renew) (right) is not allowed to enter the overlapped
+region between *y2* and *y3*
 
 # Process
 
