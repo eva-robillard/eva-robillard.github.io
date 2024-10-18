@@ -8,6 +8,8 @@ Renew is a Java-based editor and simulator for Petri Nets developed by Olaf Kumm
 
 In order to run our work, please first [download the Renew software](http://www.renew.de).
 
+* Note: For this work, the version Renew 4.1 was used. * 
+
 # Process
 
 ### Step 1 : Download the simulation software Renew
