@@ -26,10 +26,8 @@ This is the main pilot file that links all parts of the model together. In order
 
 The LTL mission is complex, and reflects a futuristic realistic scenario where a team of heterogeneous robots assist in hospital procedures.
 
-```
-$$
+```math
 Mission: \diamondsuit (b_1 \wedge b_2) \wedge \diamondsuit (b_3 \wedge b_6)  \wedge \diamondsuit (b_4 \wedge b_5) \wedge \neg (b_1 \vee b_3 \vee b_4) \mathcal{U} (b_7 \vee b_{11}) \wedge \diamondsuit (b_8 \vee b_9 \vee b_{10} \vee b_{12})
-$$
 ```
 
 The representation of the complex mission as a Petri net is heavy, it is presented in compact form and is thus not the most lisible. The representation under Petri net formalism was done automatically as described in Renew page.
