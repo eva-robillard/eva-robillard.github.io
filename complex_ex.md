@@ -27,7 +27,7 @@ This is the main pilot file that links all parts of the model together. In order
 The LTL mission is complex, and reflects a futuristic realistic scenario where a team of heterogeneous robots assist in hospital procedures.
 
 ```math
-Mission: \diamondsuit (b_1 \wedge b_2) \wedge \diamondsuit (b_3 \wedge b_6)  \wedge \diamondsuit (b_4 \wedge b_5) \wedge \neg (b_1 \vee b_3 \vee b_4) \mathcal{U} (b_7 \vee b_{11}) \wedge \diamondsuit (b_8 \vee b_9 \vee b_{10} \vee b_{12})
+Mission \varphi = \diamondsuit (b_1 \wedge b_2) \wedge \diamondsuit (b_3 \wedge b_6)  \wedge \diamondsuit (b_4 \wedge b_5) \wedge \neg (b_1 \vee b_3 \vee b_4) \mathcal{U} (b_7 \vee b_{11}) \wedge \diamondsuit (b_8 \vee b_9 \vee b_{10} \vee b_{12})
 ```
 
 The representation of the complex mission as a Petri net is heavy, it is presented in compact form and is thus not the most lisible. The representation under Petri net formalism was done automatically as described in Renew page.
@@ -36,7 +36,7 @@ The representation of the complex mission as a Petri net is heavy, it is present
 
 ## The Robot Petri Nets 
 
-In this simulation, we use multiple types of RobotPN. Respectively, we present robot_assistant, robot_full, robot_monitoring, robot_patient and robot_supply_and_clean as presented in the paper. The representation of the nets was made with random layouts : the representation that opens on your computer may differ. 
+In this simulation, we use multiple types of RobotPN. Respectively, we present robot_assistant, robot_full, robot_monitoring, robot_patient and robot_supply_and_clean as presented in the paper. The representation of the nets was made with random layouts : the representation that opens on your computer may differ. The spatial capabilities of the robots are captured in their Petri net models, reflecting the rooms from the hospital, as presented in the paper.
 
 <img src="../pictures/robot_assistant.png" alt="qpn" width="300"/> 
 
@@ -52,13 +52,13 @@ In this simulation, we use multiple types of RobotPN. Respectively, we present r
 
 # Information on the file
 
- * **System nets**: the file names contain the number of robots in the team. If the name contains "samerob" - the team is homogeneous, otherwise the team is heterogeneous;
- * **Mission net**: SimpleMission.rnw refers to the mission exemplified throughout the paper, and ComplexMission.rnw refers to the scenario with the hospital. In addition,  MissionE.rnw and MissionF.rnw contain missions with multiple final states. Their LTL Formulas are :
+ * **System nets**: the file names contain the number of robots in the team, specifying if the robots are different or the same, consdiering their spatial capabilities. For example, the file *system_net_4r_2110.rnw* express a team of heterogeneous robots, with 2 robots carrying patients, 1 monitoring robot, 1 robot for supply and clean operations and 0 assistant robots. On the other hand, the file *system_net_4r_samerob.rnw* express a homogeneous robotic team;
+ * **Mission net**: SimpleMission.rnw refers to the mission exemplified throughout the paper, and ComplexMission.rnw refers to the scenario with the hospital. In addition,  the files MissionE.rnw and MissionF.rnw contain missions with multiple final states. Their LTL Formulas are presented below:
 ```math
-MissionE: \diamondsuit \square b_1 \wedge b_2 \vee \diamondsuit \square b_3 \wedge b_6 \vee  \diamondsuit \square b_4 \wedge b_5 \vee \wedge \diamondsuit ((b_1 \vee b_3 \vee b_4) \wedge \bigcirc \diamondsuit b_9) \vee (\diamondsuit \square ((b_{11} \vee b_7) \wedge \diamondsuit \bigcirc (b_{10} \vee b_{12})))
+MissionE: \varphi = \diamondsuit \square b_1 \wedge b_2 \vee \diamondsuit \square b_3 \wedge b_6 \vee  \diamondsuit \square b_4 \wedge b_5 \vee \wedge \diamondsuit ((b_1 \vee b_3 \vee b_4) \wedge \bigcirc \diamondsuit b_9) \vee (\diamondsuit \square ((b_{11} \vee b_7) \wedge \diamondsuit \bigcirc (b_{10} \vee b_{12})))
 ```
 ```math
-MissionF \diamondsuit \square b_1 \wedge b_2 \vee \diamondsuit \square b_3 \wedge b_6 \vee  \diamondsuit \square b_4 \wedge b_5 \vee \wedge \diamondsuit ((b_1 \vee b_3 \vee b_4) \wedge \bigcirc \diamondsuit b_9) \vee  (\diamondsuit \square ((b_{11} \vee b_7)
+MissionF: \varphi = \diamondsuit \square b_1 \wedge b_2 \vee \diamondsuit \square b_3 \wedge b_6 \vee  \diamondsuit \square b_4 \wedge b_5 \vee \wedge \diamondsuit ((b_1 \vee b_3 \vee b_4) \wedge \bigcirc \diamondsuit b_9) \vee  (\diamondsuit \square ((b_{11} \vee b_7)
 ```
  * **Robot nets**:  qpn_robot and qpn_robot_2 are used for the SimpleMission. The rest of the robot nets (robot_assistant, robot_full, robot_monitoring, robot_supply_and_clean, robot_patient) are used for the ComplexMission.
    
