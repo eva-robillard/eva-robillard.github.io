@@ -54,11 +54,9 @@ In this simulation, we use multiple types of RobotPN. Respectively, we present r
 
  * **System nets**: the file names contain the number of robots in the team. If the name contains "samerob" - the team is homogeneous, otherwise the team is heterogeneous;
  * **Mission net**: SimpleMission.rnw refers to the mission exemplified throughout the paper, and ComplexMission.rnw refers to the scenario with the hospital. In addition,  MissionE.rnw and MissionF.rnw contain missions with multiple final states. Their LTL Formulas are :
-```
-MissionE: (F G (a & b) | F G ( c & f) | F G (d & e)) & F ((a | c | d)& X F i) | (F G ((k | g) & F X (j | l))) ) 
-```
-```
-MissionF (LTL formula: (F G (a & b) | F G ( c & f) | F G (d & e)) & F ((a | c | d)& X F i) | (F G(k | g))
+```math
+MissionE: \diamonsuit \square b_1 \wedge b_2 \vee \diamonsuit \square b_3 \wedge b_6 \vee  \diamonsuit \square b_4 \wedge b_5 \vee \wedge \diamonsuit ((b_1 \vee b_3 \vee b_4) \wedge \circle \diamondsuit b_9) \vee (\diamondsuit \square ((b_{11} \vee b_7) \wedge \diamondsuit \circle (b_{10} \vee b_{12})))  
+MissionF \diamonsuit \square b_1 \wedge b_2 \vee \diamonsuit \square b_3 \wedge b_6 \vee  \diamonsuit \square b_4 \wedge b_5 \vee \wedge \diamonsuit ((b_1 \vee b_3 \vee b_4) \wedge \circle \diamondsuit b_9) \vee  (\diamondsuit \square ((b_{11} \vee b_7)
 ```
  * **Robot nets**:  qpn_robot and qpn_robot_2 are used for the SimpleMission. The rest of the robot nets (robot_assistant, robot_full, robot_monitoring, robot_supply_and_clean, robot_patient) are used for the ComplexMission.
    
