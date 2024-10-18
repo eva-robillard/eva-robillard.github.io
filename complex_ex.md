@@ -7,6 +7,24 @@ nav_order: 4
 
 # Presentation of the complex example
 
+Let us consider a layout of a hospital with three floors. The hospital includes a total number of rooms of 12, denoted by the set $\mathcal{Y} = \{ y_1, y_2, y_3, y_4, y_5, y_6, y_7, y_8, y_9, y_{10}, y_{11}, y_{12}\}$, with examination rooms $y_7, y_{11}$, surgery rooms $y_8, y_{12}$, therapy rooms $y_9, y_{10}$, and MRI rooms $y_1, y_3, y_4$ which can be monitored only from rooms $y_2, y_5, y_6$.
+
+The robotic system includes different types of robots, based on their spatial capabilities: $r_p$ are robots carrying patients, $r_m$ have scanning abilities only for the MRI procedure, $r_{sc}$ are supplier and cleaning robots (supply with medicament and sterilize the rooms in which the patient should enter for medical operations) and $r_a$ are assistant robots having a wide range of actions, realizing the tasks of $r_m$ and $r_{sc}$. The following table illustrates the agents' capabilities w.r.t. the spatial constraints. For example, agents $r_p$ can only enter rooms $y_1, y_3, y_4, y_7, y_{11}$ for MRI or leading the patients for examination, while agents $r_m$ have access only in rooms $y_2, y_5, y_6$ to scan the patient during the MRI procedure. 
+
+|Name |Quantity|$r_p$|$r_m$|$r_{sc}$|$r_a$|
+|-----|--------|-----|-----|--------|-----|
+|I    |$y_1$   |   x |     |        |     |
+|II   |$y_2$   |     |  x  |        | x   |
+|I    |$y_3$   |   x |     |        |     |
+|I    |$y_4$   |   x |     |        |     |
+|II   |$y_5$   |     |  x  |        |  x  |
+|II   |$y_6$   |     |  x  |        |  x  |
+|II   |$y_7$   |   x |     |        |     |
+|III  |$y_8$   |     |     |   x    |   x |
+|III  |$y_9$   |     |     |   x    |   x |
+|III  |$y_{10}$|     |     |   x    |   x |
+|I    |$y_{11}$|   x |     |        |     |
+|II   |$y_{12}$|     |     |   x    |   x |
 
 
 
