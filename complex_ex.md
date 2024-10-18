@@ -9,28 +9,6 @@ nav_order: 4
 
 
 
-# Process
-
-### Step 1 : Download the simulation software Renew
-
-Please refer to the [Renew Installation window](../renew.html).
-
-### Step 2 : Download the complex example files
-
-[Please click here to access the files on Github](https://github.com/eva-robillard/NWN_Complex).
-
-### Step 3 : Open the example on Renew
-
-The procedure for the launching on the example in Renew is:
-
-1. Open the Powershell in the directory with the example files, containing the Java script Eval.java.
-2. Execute "javac Eval.java" in the Powershell
-3. Open Renew from the Powershell ( type in the path of the directory containing the Renew software adding \renew ) 
-4. In Renew, open "execute_experiment.rnw"
-
-### Step 4 : Simulate
-
-Simulate Step by Step (Ctrl+I) or completely (Ctrl+R)
 
 # Presentation of the files
 
@@ -46,7 +24,13 @@ This is the main pilot file that links all parts of the model together. In order
 
 ## The Specification Net (SpecOPN) : complexmission
 
-The representation of the complex mission is heavy, it is presented in compact form and is thus not the most lisible. 
+The LTL mission is complex, and reflects a futuristic realistic scenario where a team of heterogeneous robots assist in hospital procedures.
+
+```
+Mission: \diamondsuit (b_1 \wedge b_2) \wedge \diamondsuit (b_3 \wedge b_6)  \wedge \diamondsuit (b_4 \wedge b_5) \wedge \neg (b_1 \vee b_3 \vee b_4) \mathcal{U} (b_7 \vee b_{11}) \wedge \diamondsuit (b_8 \vee b_9 \vee b_{10} \vee b_{12})
+```
+
+The representation of the complex mission as a Petri net is heavy, it is presented in compact form and is thus not the most lisible. The representation under Petri net formalism was done automatically as described in Renew page.
 
 <img src="../pictures/complexmission.png" alt="mission" width="400"/>
 
@@ -79,4 +63,4 @@ MissionF (LTL formula: (F G (a & b) | F G ( c & f) | F G (d & e)) & F ((a | c | 
  * **Robot nets**:  qpn_robot and qpn_robot_2 are used for the SimpleMission. The rest of the robot nets (robot_assistant, robot_full, robot_monitoring, robot_supply_and_clean, robot_patient) are used for the ComplexMission.
    
  > [!NOTE]
- > For teams of 2-5 robots, one experiment contains 100 simulations, for teams of 6-8 robots, an experiment contains 10 simulations, except the file names containing 1sim (1 simulation). 
+ > One experiment include multiple simulations, as follows: 1000 simulations for the first three cases (2-5 robots), 250 simulations for 6 robots, 85 simulation for 7 robots and 300 simulations for 8 robots. 
