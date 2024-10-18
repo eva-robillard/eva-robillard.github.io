@@ -11,7 +11,7 @@ Let us consider a layout of a hospital with three floors. The hospital includes 
 
 The robotic system includes different types of robots, based on their spatial capabilities: $r_p$ are robots carrying patients, $r_m$ have scanning abilities only for the MRI procedure, $r_{sc}$ are supplier and cleaning robots (supply with medicament and sterilize the rooms in which the patient should enter for medical operations) and $r_a$ are assistant robots having a wide range of actions, realizing the tasks of $r_m$ and $r_{sc}$. The following table illustrates the agents' capabilities w.r.t. the spatial constraints. For example, agents $r_p$ can only enter rooms $y_1, y_3, y_4, y_7, y_{11}$ for MRI or leading the patients for examination, while agents $r_m$ have access only in rooms $y_2, y_5, y_6$ to scan the patient during the MRI procedure. 
 
-|Name |Quantity|$r_p$|$r_m$|$r_{sc}$|$r_a$|
+|Floor|Rooms   |$r_p$|$r_m$|$r_{sc}$|$r_a$|
 |-----|--------|-----|-----|--------|-----|
 |I    |$y_1$   |   x |     |        |     |
 |II   |$y_2$   |     |  x  |        | x   |
